@@ -12,7 +12,6 @@ const courseSchema = new mongoose.Schema({
 
     image: {
         type: String,
-        required: true,
         default: "https://cdn.sanity.io/images/qyzm5ged/production/4fe5252b1031f0520fc5a58fc109749e01972381-2138x1200.jpg/Thumbnail-v1-(4).jpg?fm=webp"
     },
     price: {
